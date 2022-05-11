@@ -11,7 +11,7 @@ export default function Map() {
       <StatusBar />
       {/* Code Here */}
       {socialMedia.map((item)=>(
-        <Text>{item}</Text>
+        <Text key={item}>{item}</Text>
       ))}
 
       {/* {socialMedia.map((item)=>{
